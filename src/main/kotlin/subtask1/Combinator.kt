@@ -3,7 +3,7 @@ package subtask1
 class Combinator {
 
     fun checkChooseFromArray(array: Array<Int>): Int? {
-        var m = array[0]
+        val m = array[0]
         val n = array[1]
         var x: Int? = null
         for (i in 1..n) {
